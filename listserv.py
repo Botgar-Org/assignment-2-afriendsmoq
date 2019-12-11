@@ -20,6 +20,8 @@ def create_lists(csv_file):
 			#writes to a text file named grade_level, the email adress and full name for that row
 			with open(text_file, 'a') as t:
 				t.write(full_info)	
+				
+			#test this shit out
 
 def main(args):
 	create_lists(args[1])
